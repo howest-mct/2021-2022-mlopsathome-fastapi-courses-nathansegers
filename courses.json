@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Advanced Programming",
+        "semester": 4,
+        "tags": [
+            "#python",
+            "#pandas",
+            "#algorithm",
+            "#maths"
+        ],
+        "track": "ai-engineer",
+        "description": "Learning advanced Python code with Multitreading",
+        "lecturers": [
+            "Stijn Walcarius"
+        ]
+    },
+    {
+        "title": "Advanced AI",
+        "semester": 5,
+        "tags": [
+            "#advancedComputerVision",
+            "#naturaLanguagePr.",
+            "#reinforcementL."
+        ],
+        "track": "ai-engineer",
+        "description": "Reinforcement learning and complex AI models such as Computer Vision and Natural Language Processing tasks.",
+        "lecturers": [
+            "Wouter Gevaert",
+            "Marie Dewitte"
+        ]
+    },
+    {
+        "title": "Backend Development",
+        "semester": 4,
+        "tags": [
+            "#ASP",
+            "#netcore",
+            "#crossplatform",
+            "#AI-Architectuur",
+            "#Docker"
+        ],
+        "track": "ai-engineer",
+        "description": "How to create an API in .NET? Learn how to build the basics of backend applications in Docker.",
+        "lecturers": [
+            "Dieter De Preester",
+            "Nathan Segers"
+        ]
+    },
+    {
+        "title": "Big Data",
+        "semester": 4,
+        "tags": [
+            "#TIMESERIES",
+            "#NOSQL",
+            "#TEXTSEARCH",
+            "#MAPREDUCE",
+            "#SPARK",
+            "#STREAM",
+            "#BATCH"
+        ],
+        "track": "ai-engineer",
+        "description": "Big data teaches you how to save data in large volumes, but still keeping performance and consistency.",
+        "lecturers": [
+            "Johan De Gelas",
+            "Esli Heyvaert"
+        ]
+    },
+    {
+        "title": "Deep Learning",
+        "semester": 5,
+        "tags": [
+            "#dsp",
+            "#neural_networks"
+        ],
+        "track": "ai-engineer",
+        "description": "Continue where Machine learning stopped, by working with Neural Networks",
+        "lecturers": [
+            "Wouter Gevaert",
+            "Marie Dewitte"
+        ]
+    },
+    {
+        "title": "Machine Learning",
+        "semester": 4,
+        "tags": [
+            "#neuralnetworks",
+            "#ai",
+            "#machinelearning"
+        ],
+        "track": "ai-engineer",
+        "description": "Machine Learning will teach you how to dig into datasets and create classification and regression models.",
+        "lecturers": [
+            "Wouter Gevaert",
+            "Marie Dewitte"
+        ]
+    },
+    {
+        "title": "MLOps",
+        "semester": 5,
+        "track": "ai-engineer",
+        "tags": [
+            "#AI-Cloud",
+            "#Docker",
+            "#Kubernetes",
+            "#AutomatedAI"
+        ],
+        "description": "How to deploy AI models in the cloud and automate the AI training. Keeping your AI projects workable.",
+        "lecturers": [
+            "Nathan Segers"
+        ]
+    },
+    {
+        "title": "Smart App Development",
+        "track": "next-web-developer",
+        "semester": 5,
+        "tags": [
+            "#Expo",
+            "#ReactNative",
+            "#iOS",
+            "#Android"
+        ],
+        "description": "Hoe maken we performante en mooie apps die een zo veel mogelijk gedeelde codebase hebben tussen iOS & Android?",
+        "lecturers": [
+            "Martijn Loth",
+            "Pieter-Jan Beeckman"
+        ]
+    },
+    {
+        "title": "Advanced Full Stack Development",
+        "semester": 5,
+        "tags": [
+            "#frontend",
+            "#backend",
+            "#GCP",
+            "#firebase",
+            "#PWA",
+            "#AiIntegration"
+        ],
+        "track": "next-web-developer",
+        "description": "Werken aan een full stack project met verschillende PaaS-oplossingen.",
+        "lecturers": [
+            "Nathan Segers",
+            "Martijn Loth",
+            "Christophe Laprudence"
+        ]
+    
+    },
+    {
+        "title": "Future Technologies",
+        "semester": 5,
+        "tags": [
+            "#Project",
+            "#Sessions",
+            "#Experimental",
+            "#Future"
+        ],
+        "track": "next-web-developer",
+        "description": "Cutting-edge technologies waarmee we als expert in het werkveld komen, daar draait dit om!",
+        "lecturers": [
+            "Martijn Loth",
+            "Dieter De Preester",
+            "Pieter-Jan Beeckman"
+        ]
+    }
+]

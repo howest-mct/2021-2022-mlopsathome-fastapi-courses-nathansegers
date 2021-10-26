@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Stijn Walcarius",
+        "language": "Dutch",
+        "track": "ai-engineer",
+        "programmingLanguage": "Java",
+        "favouriteCourse": "Advanced Programming"
+    },
+    {
+        "name": "Wouter Gevaert",
+        "language": "English",
+        "track": "ai-engineer",
+        "programmingLanguage": "Python",
+        "favouriteCourse": "Advanced AI"
+    },
+    {
+        "name": "Marie Dewitte",
+        "language": "Dutch",
+        "track": "ai-engineer",
+        "programmingLanguage": "Python",
+        "favouriteCourse": "Deep Learning"
+    },
+    {
+        "name": "Nathan Segers",
+        "language": "English",
+        "track": "ai-engineer",
+        "programmingLanguage": "Typescript",
+        "favouriteCourse": "MLOps"
+    },
+    {
+        "name": "Dieter De Preester",
+        "language": "Dutch",
+        "track": "ai-engineer",
+        "programmingLanguage": ".NET",
+        "favouriteCourse": "Backend Development"
+    },
+    {
+        "name": "Johan De Gelas",
+        "language": "English",
+        "track": "ai-engineer",
+        "programmingLanguage": "Bash",
+        "favouriteCourse": "Big Data"
+    },
+    {
+        "name": "Esli Heyvaert",
+        "language": "Dutch",
+        "track": "ai-engineer",
+        "programmingLanguage": "Python",
+        "favouriteCourse": "Big Data"
+    },
+    {
+        "name": "Martijn Loth",
+        "language": "Dutch",
+        "track": "next-web-developer",
+        "programmingLanguage": "Typescript",
+        "favouriteCourse": "Smart App Development"
+    },
+    {
+        "name": "Pieter-Jan Beeckman",
+        "language": "English",
+        "track": "next-web-developer",
+        "programmingLanguage": "Typescript",
+        "favouriteCourse": "Future Technologies"
+    },
+    {
+        "name": "Christophe Laprudence",
+        "language": "Dutch",
+        "track": "next-web-developer",
+        "programmingLanguage": "PHP",
+        "favouriteCourse": "Advanced Full Stack Development"
+    }
+]
