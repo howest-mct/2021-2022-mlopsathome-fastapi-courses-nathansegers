@@ -1,3 +1,4 @@
+import os
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
@@ -23,7 +24,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 @app.get("/")
-async def root():
+def root():
     return {"message":"Hello World"}
 
 # Course routes
@@ -31,21 +32,21 @@ async def root():
     summary='Get all courses',
     tags=['Course'],
     response_model=List[Course])
-async def getAllCourses():
+def getAllCourses():
     return courses
 
 @app.get('/mct/courses/track/{track}', description='Return all the courses by a Track',
     summary='Return all the courses by a Track',
     tags=['Course'],
     response_model=List[Course])
-async def getAllCoursesByTrack(track: str):
+def getAllCoursesByTrack(track: str):
     return list(filter(lambda course: course.track == track, courses))
 
 @app.get('/mct/courses/name/{name}', description='Return one course by name',
     summary='Return one course by name',
     tags=['Course'],
     response_model=Course)
-async def getCourseByName(name: str):
+def getCourseByName(name: str):
     returnCourses = list(filter(lambda course: course.title == name, courses))
     if len(returnCourses) == 0:
         raise HTTPException(404, 'No course with that name')
@@ -58,19 +59,23 @@ async def getCourseByName(name: str):
     summary='Get all lecturers',
     tags=['Lecturer'],
     response_model=List[Lecturer])
-async def getAllLecturers():
+def getAllLecturers():
     return lecturers
 
 @app.get('/mct/lecturers/track/{track}', description='Return all the lecturers by a Track',
     summary='Return all the lecturers by a Track',
     tags=['Lecturer'],
     response_model=List[Lecturer])
-async def getAllLecturersByTrack(track: str):
+def getAllLecturersByTrack(track: str):
     return list(filter(lambda lecturer: lecturer['track'] == track, lecturers))
 
 @app.get('/mct/lecturers/name/{name}', description='Return one lecturer by name',
     summary='Return one lecturer by name',
     tags=['Lecturer'],
     response_model=List[Lecturer])
-async def getLecturerByName(name: str):
+def getLecturerByName(name: str):
     return list(filter(lambda lecturer: lecturer['name'] == name, lecturers))
+
+@app.get('/debug/environment')
+def debugEnvironment():
+    return os.environ
