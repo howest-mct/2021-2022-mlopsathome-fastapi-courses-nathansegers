@@ -32,10 +32,6 @@ async def root():
     tags=['Course'],
     response_model=List[Course])
 async def getAllCourses():
-    """
-    Return all the courses of MCT. With some extra information using **docstrings**.
-    Note that you can't use description and docstrings simultaneously!
-    """
     return courses
 
 @app.get('/mct/courses/track/{track}', description='Return all the courses by a Track',
