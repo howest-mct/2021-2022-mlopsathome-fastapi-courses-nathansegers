@@ -79,3 +79,7 @@ def getLecturerByName(name: str):
 @app.get('/debug/environment')
 def debugEnvironment():
     return os.environ
+
+@app.get('/app/info')
+def appInfo():
+    return 'v1.0.0'
